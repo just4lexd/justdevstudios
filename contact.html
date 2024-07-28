@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Estudio de Videojuegos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Alan.html">Alan</a></li>
+                <li><a href="Alex.html">Alex</a></li>
+                <li><a href="Mika.html">Mika</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>Ponte en contacto con nosotros</p>
+        </div>
+    </header>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Envíanos un mensaje</h2>
+            <form action="https://formspree.io/f/xyzgebar" method="POST">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="_replyto" required>
+                
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Estudio de Videojuegos. Todos los derechos reservados.</p>
+            <div class="footer-buttons">
+                <a href="index.html" class="btn-footer">Inicio</a>
+                <a href="https://instagram.com/justdev_studios" class="btn-footer">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
